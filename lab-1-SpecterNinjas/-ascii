@@ -1,0 +1,48 @@
+17:32:53.968000 == Info: Could not resolve host: dump.txt
+17:32:53.968000 == Info: Closing connection 0
+17:32:53.968000 == Info:   Trying 192.168.1.103...
+17:32:53.968000 == Info: TCP_NODELAY set
+17:32:53.968000 == Info: Connected to inha.uz (192.168.1.103) port 80 (#1)
+17:32:53.968000 => Send header, 71 bytes (0x47)
+0000: 47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a GET / HTTP/1.1..
+0010: 48 6f 73 74 3a 20 69 6e 68 61 2e 75 7a 0d 0a 55 Host: inha.uz..U
+0020: 73 65 72 2d 41 67 65 6e 74 3a 20 63 75 72 6c 2f ser-Agent: curl/
+0030: 37 2e 36 33 2e 30 0d 0a 41 63 63 65 70 74 3a 20 7.63.0..Accept: 
+0040: 2a 2f 2a 0d 0a 0d 0a                            */*....
+17:32:53.968000 <= Recv header, 32 bytes (0x20)
+0000: 48 54 54 50 2f 31 2e 31 20 33 30 31 20 4d 6f 76 HTTP/1.1 301 Mov
+0010: 65 64 20 50 65 72 6d 61 6e 65 6e 74 6c 79 0d 0a ed Permanently..
+17:32:53.968000 <= Recv header, 15 bytes (0xf)
+0000: 53 65 72 76 65 72 3a 20 6e 67 69 6e 78 0d 0a    Server: nginx..
+17:32:53.968000 <= Recv header, 37 bytes (0x25)
+0000: 44 61 74 65 3a 20 46 72 69 2c 20 30 31 20 46 65 Date: Fri, 01 Fe
+0010: 62 20 32 30 31 39 20 31 32 3a 31 34 3a 30 34 20 b 2019 12:14:04 
+0020: 47 4d 54 0d 0a                                  GMT..
+17:32:53.968000 <= Recv header, 25 bytes (0x19)
+0000: 43 6f 6e 74 65 6e 74 2d 54 79 70 65 3a 20 74 65 Content-Type: te
+0010: 78 74 2f 68 74 6d 6c 0d 0a                      xt/html..
+17:32:53.968000 <= Recv header, 21 bytes (0x15)
+0000: 43 6f 6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a 20 Content-Length: 
+0010: 31 37 38 0d 0a                                  178..
+17:32:53.968000 <= Recv header, 24 bytes (0x18)
+0000: 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 6b 65 65 70 Connection: keep
+0010: 2d 61 6c 69 76 65 0d 0a                         -alive..
+17:32:53.968000 <= Recv header, 28 bytes (0x1c)
+0000: 4c 6f 63 61 74 69 6f 6e 3a 20 68 74 74 70 73 3a Location: https:
+0010: 2f 2f 69 6e 68 61 2e 75 7a 2f 0d 0a             //inha.uz/..
+17:32:53.968000 <= Recv header, 2 bytes (0x2)
+0000: 0d 0a                                           ..
+17:32:53.968000 <= Recv data, 178 bytes (0xb2)
+0000: 3c 68 74 6d 6c 3e 0d 0a 3c 68 65 61 64 3e 3c 74 <html>..<head><t
+0010: 69 74 6c 65 3e 33 30 31 20 4d 6f 76 65 64 20 50 itle>301 Moved P
+0020: 65 72 6d 61 6e 65 6e 74 6c 79 3c 2f 74 69 74 6c ermanently</titl
+0030: 65 3e 3c 2f 68 65 61 64 3e 0d 0a 3c 62 6f 64 79 e></head>..<body
+0040: 20 62 67 63 6f 6c 6f 72 3d 22 77 68 69 74 65 22  bgcolor="white"
+0050: 3e 0d 0a 3c 63 65 6e 74 65 72 3e 3c 68 31 3e 33 >..<center><h1>3
+0060: 30 31 20 4d 6f 76 65 64 20 50 65 72 6d 61 6e 65 01 Moved Permane
+0070: 6e 74 6c 79 3c 2f 68 31 3e 3c 2f 63 65 6e 74 65 ntly</h1></cente
+0080: 72 3e 0d 0a 3c 68 72 3e 3c 63 65 6e 74 65 72 3e r>..<hr><center>
+0090: 6e 67 69 6e 78 3c 2f 63 65 6e 74 65 72 3e 0d 0a nginx</center>..
+00a0: 3c 2f 62 6f 64 79 3e 0d 0a 3c 2f 68 74 6d 6c 3e </body>..</html>
+00b0: 0d 0a                                           ..
+17:32:53.968000 == Info: Connection #1 to host inha.uz left intact
